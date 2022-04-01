@@ -13,6 +13,12 @@ const {
 const { createToken, generateID } = require('./utils');
 
 const PORT = process.env.PORT || 8000;
+const TRUE = 'true';
+
+const LOCALHOST_URL = 'http://localhost:3000';
+const CLIENT_DEPLOYED_URL = '';
+const CLIENT_URL =
+  process.env.IS_PRODUCTION === TRUE ? CLIENT_DEPLOYED_URL : LOCALHOST_URL;
 
 app.get('/', (req, res) => {
   res.send('Hello, Connected to server for chatly');
@@ -24,7 +30,7 @@ const server = app.listen(PORT, () => {
 
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: CLIENT_URL,
   },
 });
 
