@@ -14,9 +14,9 @@ This application is provided with features -
 
 `Node.js` `socket.io` `Express.js` `JWT`
 
-### Project Deployment Link - [snippetbin.herokuapp.com](https://snippetbin.herokuapp.com)
+### Project Deployment Link - [sensational-malabi-0fa8a6.netlify.app](https://sensational-malabi-0fa8a6.netlify.app)
 
-### Video Demo Link - [vimeo.com/679259895](https://vimeo.com/679259895)
+### Video Demo Link - [vimeo.com/694813570](https://vimeo.com/694813570)
 
 ## IMAGES OF APPLICATION
 
