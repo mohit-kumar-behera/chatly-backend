@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8000;
 const TRUE = 'true';
 
 const LOCALHOST_URL = 'http://localhost:3000';
-const CLIENT_DEPLOYED_URL = '';
+const CLIENT_DEPLOYED_URL = 'https://sensational-malabi-0fa8a6.netlify.app';
 const CLIENT_URL =
   process.env.IS_PRODUCTION === TRUE ? CLIENT_DEPLOYED_URL : LOCALHOST_URL;
 
